@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/FirstPersonRaycaster/raycaster.gd" type="Script" id=1]
+[ext_resource path="res://addons/FirstPersonRaycaster/icon.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D" index="0"]
+
+[node name="FirstPersonRaycaster" type="Node2D" parent="." index="0"]
+
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_icon": ExtResource( 2 )
+}
+
+
